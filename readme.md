@@ -37,6 +37,9 @@ A 2D top-down RPG where every NPC is powered by a locally hosted Large Language 
 | ESC | Close dialogue panel |
 | Left Mouse Click | Attack slime (must be in range) |
 
+
+
+CHANGE QUEST FLOW
 **Quest flow:**
 1. Walk to Elder Rodric → press E → Ollama generates quest speech (2–5 sec)
 2. Read the dialogue → press ESC to close → quest tracker appears
@@ -79,48 +82,6 @@ ollama pull llama3
 
 ---
 
-## Project Structure
-
-```
-Assets/
-├── Scripts/
-│   ├── PlayerController.cs     — WASD movement
-│   ├── CameraFollow.cs         — Smooth camera follow
-│   ├── OllamaManager.cs        — HTTP requests to Ollama API
-│   ├── DialogueUI.cs           — Dialogue panel, prompt hide/restore logic
-│   ├── NPCInteraction.cs       — Regular NPC E-key dialogue
-│   ├── NPCQuestGiver.cs        — Rodric quest delivery, starts on dialogue close
-│   ├── QuestManager.cs         — Kill tracker, instant UI update, completion
-│   ├── SlimeHealth.cs          — Proximity trigger + left-click attack system
-│   └── SlimeMovement.cs        — Random slime wander
-├── Scenes/
-│   └── VillageScene.unity
-├── Art/
-│   ├── Tilesets/
-│   └── Characters/
-└── UI/
-docs/
-├── high-concept.md
-├── ollama-plan.md
-├── setup.md
-├── refinements-changes.md
-├── readme.md
-└── prompts-used.md
-```
-
----
-
-## Collider Setup Reference
-
-| GameObject | Collider | Is Trigger | Purpose |
-|---|---|---|---|
-| Player | Box Collider 2D | FALSE | Solid body |
-| NPCs | Box Collider 2D | TRUE | E key proximity detection |
-| Slime (body) | Circle Collider 2D | FALSE | Solid body |
-| Slime (range) | Circle Collider 2D | TRUE | Attack zone — auto-created by SlimeHealth.cs |
-
----
-
 ## Dependencies
 
 | Dependency | Version | Purpose |
@@ -138,22 +99,6 @@ docs/
 |---|---|
 | Ollama (llama3) | Real-time NPC dialogue and quest delivery at runtime |
 | Claude (claude.ai) | Documentation, script architecture, prompt design, debugging |
-
----
-
-## Videos
-
-- **Technical Demonstration (3–6 min):** Ollama running locally, terminal showing HTTP request/response, NPC dialogue and quest delivery in action.
-- **Final Showcase (3–6 min):** Full gameplay — quest given, 3 slimes killed with proximity system, quest complete, Rodric reward dialogue. Design intent and reflection.
-
----
-
-## Credits
-
-**Developer:** [Your Name]  
-**Institution:** [Your Institution]  
-**Module:** Game Design 3A  
-**Year:** 2026  
 
 ---
 
