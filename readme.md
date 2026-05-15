@@ -71,7 +71,7 @@ A 2D top-down RPG where every NPC is powered by a locally hosted Large Language 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/whisper-village.git
+git clone https://github.com/sufyaanAlbertus/GADS7331_Part2.git
 cd whisper-village
 ```
 
