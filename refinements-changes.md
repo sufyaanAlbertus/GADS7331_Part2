@@ -168,16 +168,6 @@ This is a living document. Update it every time a design decision is made, a fea
 
 ---
 
-### [TBD] — Add your own entries below as the project progresses
-
-*Examples of entries you should still add:*
-- *"Adjusted slime move speed — slimes were wandering off the tilemap"*
-- *"Changed spriteOffset on DirectionIndicator to fix arrow pointing wrong way"*
-- *"Switched from llama3 to mistral — response time was too slow on test machine"*
-- *"Modified NPC locked message to feel more natural in context"*
-
----
-
 ## AI Tools Used
 
 | Tool | Purpose |
@@ -203,8 +193,8 @@ This is a living document. Update it every time a design decision is made, a fea
 | NPC dialogue icons | ✅ In scope | Visual identity per speaker |
 | Custom character sprites | ✅ In scope | Visual consistency across cast |
 | Player frozen during dialogue | ✅ In scope | Immersion and bug fix |
+| Combat animations (swing) | ✅ In scope | Visual Aid |
 | Player health / death | ❌ Out of scope | Adds complexity without LLM value |
-| Combat animations (swing) | ❌ Out of scope | Not needed for prototype |
 | Multiple scenes | ❌ Out of scope | One scene is sufficient |
 | Inventory system | ❌ Out of scope | Not required by brief |
 | Save / load | ❌ Out of scope | Not required by brief |
