@@ -1,5 +1,4 @@
 * text=auto
-
 *.cs text eol=crlf
 *.shader text eol=lf
 *.txt text eol=lf
