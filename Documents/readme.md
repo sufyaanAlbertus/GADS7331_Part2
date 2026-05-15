@@ -12,6 +12,15 @@ A 2D top-down RPG where every NPC is powered by a locally hosted Large Language 
 
 ---
 
+## Group Members
+
+| Student Number | Name |
+|---|---|
+| ST10436103 | Sufyaan Albertus |
+| ST10262263 | Sandile Duba |
+
+---
+
 ## Features
 
 - Top-down 2D player movement (WASD) with smooth camera follow
@@ -191,3 +200,18 @@ Kenmi (no date) *Cute fantasy RPG — 16x16 top down pixel art asset pack*. itch
 
 - **Technical Demonstration (3–6 min):** Ollama running locally, terminal showing HTTP request/response, NPC dialogue and quest delivery in action.
 - **Final Showcase (3–6 min):** Full gameplay — story order, quest given, slimes killed, quest complete, Rodric reward, game over fade. Design intent and reflection.
+
+---
+
+## Credits
+
+**Group Members:**
+
+| Student Number | Name |
+|---|---|
+| ST10436103 | Sufyaan Albertus |
+| ST10262263 | Sandile Duba |
+
+**Institution:** IIE — The Independent Institute of Education
+**Module:** Game Design 3A
+**Year:** 2026
